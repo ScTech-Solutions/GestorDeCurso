@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{99A65832-9827-4469-8C60-80BA19033E10}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GestorDeCursos/GestorDeCursos/Registro.xaml.cs">
+    <Files>
+      <File FileName="GestorDeCursos/GestorDeCursos/SeguimientosDeCursoPage.xaml" />
+      <File FileName="GestorDeCursos/GestorDeCursos/MainPage.xaml" />
+      <File FileName="GestorDeCursos/GestorDeCursos/MainPage.xaml.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Data/SQLiteHelper.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Models/Seguimiento.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Models/Curso.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Models/User.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Models/Empleado.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Login.xaml" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Login.xaml.cs" />
+      <File FileName="GestorDeCursos/GestorDeCursos/Registro.xaml.cs" Line="18" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GestorDeCursos" expanded="True" selected="True">
+            <Node name="GestorDeCursos" expanded="True">
+              <Node name="Registro.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_3_xl_-_api_31" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GestorDeCursos.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.pixel_3_xl_-_api_31" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/mauricio/Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/mono/mono/d9a6e8710b37cd7f16cf52eff4f772556e57cc41</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.1.2" />
+</Properties>

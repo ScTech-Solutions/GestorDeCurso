@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestorDeCursos.Login">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenidos" HorizontalOptions="Center" TextColor="White" FontSize="Large"/>
+        </Frame>
+        <Label Text="Escribe el Email"/>
+        <Entry Placeholder="example@gmail.com" x:Name="txtEmailLogin" />
+        <Label Text="Contraseña"/>
+        <Entry Placeholder="Contraseña" x:Name="txtContraLogin" IsPassword="True" />
+
+        <Button x:Name="BtnRegistrarse" Text="Registrarse" Clicked="BtnRegistrarse_Clicked"/>
+        <Button Text="Iniciar Sesión" Clicked="LoginBtn" />
+    </StackLayout>
+</ContentPage>
