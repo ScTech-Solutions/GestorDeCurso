@@ -54,37 +54,25 @@ namespace GestorDeCursos
 
         public bool ValidarDatos()
         {
+            bool respuesta = true; // Establecer inicialmente la respuesta como verdadera
 
-            bool respuesta;
             if (string.IsNullOrEmpty(txtCurso.Text))
             {
                 respuesta = false;
-
             }
-
-            else if (string.IsNullOrEmpty(pickerTipoCurso.SelectedItem.ToString()))
+            else if (pickerTipoCurso.SelectedIndex == -1) // Verificar si no se ha seleccionado ningún elemento
             {
                 respuesta = false;
-
             }
-
             else if (string.IsNullOrEmpty(txtDescripcion.Text))
             {
                 respuesta = false;
-
             }
             else if (string.IsNullOrEmpty(txtHoras.Text))
             {
                 respuesta = false;
-
-            }
-            else
-            {
-                respuesta = true;
             }
             return respuesta;
-
-
         }
 
         private async void BtnActualizarCurso_Clicked(System.Object sender, System.EventArgs e)

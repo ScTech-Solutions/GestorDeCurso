@@ -102,7 +102,7 @@ namespace GestorDeCursos
                 catch (Exception ex)
                 {
                     // Maneja cualquier excepción que pueda ocurrir al guardar en la base de datos
-                    await DisplayAlert("Error", $"Error al guardar el seguimiento: {ex.Message}", "OK");
+                    await DisplayAlert("Error", "Favor de Ingresar todos los datos faltantes", "OK");
                 }
             }
         }

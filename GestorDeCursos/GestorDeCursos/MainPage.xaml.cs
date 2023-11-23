@@ -83,7 +83,7 @@ namespace GestorDeCursos
                 respuesta = false;
 
             }
-            else if (string.IsNullOrEmpty(pickerTipoEmp.SelectedItem.ToString()))
+            else if (pickerTipoEmp.SelectedIndex == -1)
             {
                 respuesta = false;
             }
